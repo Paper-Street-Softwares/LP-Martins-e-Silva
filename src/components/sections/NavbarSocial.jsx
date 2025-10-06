@@ -77,14 +77,14 @@ export default function NavbarSocial({ colorMode, mode }) {
       window.removeEventListener("resize", handleResize);
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, []);
+    }, []);
 
   const getNavbarClasses = () => {
     if (colorMode === "light") {
       return scrolling
         ? "bg-bgSectionLight bg-opacity-100 shadow-lg transition-all duration-1000"
         : "bg-gradient-to-b from-bgSectionLight to-transparent border-none transition-colors duration-1000";
-    }
+      }
     if (colorMode === "dark") {
       return scrolling
         ? "bg-gradient-to-b from-black to-bgFixedDark shadow-lg border-b-[1px] border-primary transition-all duration-1000"
