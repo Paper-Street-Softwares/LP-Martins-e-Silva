@@ -10,7 +10,7 @@ export const theme = {
       minititleDark: "#CFB584", //bg minitag de seções claras
       minititle: "#CFB584", //bg minitag de seções escuras
 
-      secondary: "#000079",
+      secondary: "#000",
 
       // Fundos de Seção
 
@@ -105,3 +105,4 @@ export const theme = {
   },
 };
 // export const plugins = [require("tailwindcss-gradients")];
+
