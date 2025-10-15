@@ -9,6 +9,7 @@ import {
   ServerIcon,
   HelpCircle,
   AlignJustify,
+  Handshake,
   MapPin,
   FileText,
 } from "lucide-react";
@@ -45,6 +46,7 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
     <HomeIcon />,
     <UserSearch />,
     <ServerIcon />,
+    <Handshake />,
     // <FileText />,
     <HelpCircle />,
 
