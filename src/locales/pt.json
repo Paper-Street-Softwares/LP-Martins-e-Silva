@@ -1,6 +1,6 @@
 {
   "infos": {
-    "adress": "Av. Ator José Wilker, <br/> nº 605 – Centro Metropolitano <br/> Barra da Tijuca – Rio de Janeiro - RJ, <br/> CEP: 22775-024",
+    "adress": "Estrada dos Bandeirantes, <br/> No 470 Sala 728 - Fórum Empresarial da Taquara<br/> Jacarepaguá – RJ <br/>CEP 22.710-112",
     "adressSecundario": "A_Definir",
     "expediente": "Segunda a sexta-feira: <br/> 10h às 19h",
     "expedienteSecundario": "A_Definir",
@@ -11,6 +11,7 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
+      "parceria": "Parceiros",
       "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
@@ -18,8 +19,8 @@
   },
   "hero": {
     "miniTag": "Martins & Silva Consultoria e Negócios Jurídicos",
-    "title": "Duas mentes jurídicas, <span class=\"text-primary font-bold\">um só propósito</span>",
-    "subtitle": "Luciene Martins e Márcia Silva unem experiência e visão estratégica para transformar desafios em soluções.",
+    "title": "LUCIENE MARTINS E MÁRCIA SILVA, DUAS TRAJETÓRIAS UNIDAS <span class=\"text-primary font-bold\">POR UM MESMO IDEAL.</span>",
+    "subtitle": "Com propósito e visão estratégica, transformam desafios em resultados inspiradores.",
     "ctaButtonText": "Conheça nossa atuação",
     "obsHero": {
       "text": "Atendimento online, com praticidade e agilidade para clientes em qualquer localidade"
@@ -37,22 +38,22 @@
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Direito do Consumidor",
-      "subtitle": "Defesa de direitos em compras, contratos e serviços.",
+      "title": "Direito Empresarial ",
+      "subtitle": "Assessoria legal completa para empresas e negócios.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Contratos",
-      "subtitle": "Análise e elaboração de contratos com segurança.",
+      "title": "Direito Imobiliário",
+      "subtitle": "Regularização e disputas em imóveis urbanos e rurais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Direito Empresarial",
-      "subtitle": "Assessoria legal completa para empresas e negócios.",
+      "title": "Direito Civil",
+      "subtitle": "Soluções jurídicas em obrigações, bens e direitos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -87,8 +88,8 @@
     "title": "Nossa trajetória",
     "subtitle": "Compromisso jurídico aliado à experiência prática e soluções estratégicas. ",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A Martins & Silva Consultoria e Negócios Jurídicos é um escritório moderno e dinâmico, que combina conhecimento especializado com prática jurídica para oferecer soluções personalizadas aos seus clientes. Ética, transparência e eficiência estão no centro de nossa atuação.",
-    "modal": "A Martins & Silva Consultoria e Negócios Jurídicos é um escritório moderno e dinâmico, que combina conhecimento especializado com prática jurídica para oferecer soluções personalizadas aos seus clientes. Ética, transparência e eficiência estão no centro de nossa atuação. <br/><br/> À frente do escritório está a Dra. Luciene Martins, advogada com ampla experiência em Direito de Família, Direito do Consumidor e Contratos. Seu trabalho é marcado por atendimento humanizado e pela busca de soluções práticas e seguras, sempre conciliando técnica e sensibilidade. <br/><br/> Complementando essa expertise, a Dra. Márcia Silva traz mais de 20 anos de atuação em Direito Empresarial e Imobiliário. Com sólida vivência em negociações, consultoria de negócios e gestão condominial, alia experiência prática ao profundo conhecimento jurídico em processos cíveis e societários. <br/>",
+    "paragraph": "A MARTINS & SILVA nasceu da união de duas profissionais que compartilham um mesmo propósito: oferecer um atendimento jurídico moderno, ético e orientado a resultados reais. Mais do que um escritório de advocacia, somos parceiras estratégicas, dedicadas a transformar desafios em soluções seguras e construir relações de confiança duradouras. <br/><br/> <span class=\"font-bold\">Nossa Atuação:</span> <br/> Somos um escritório dinâmico e multidisciplinar, que une conhecimento técnico, visão de negócio e experiência prática para entregar soluções jurídicas personalizadas e eficazes. <br/> Nossos pilares sustentam cada atuação:<br/> ✅ Ética <br/> ✅ Transparência <br/> ✅ Excelência <br/> Atuamos com foco em segurança jurídica, agilidade e resultados concretos. <br/><br/> <span class=\"font-bold\">Quem Está à Frente:</span> <br/> Dra. Luciene Martins <br/> Especialista em Direito de Família, Direito do Consumidor e Contratos, é reconhecida pelo atendimento humanizado e pela capacidade de unir técnica e sensibilidade na resolução de conflitos.  <br/><br/> Dra. Márcia Silva <br/> Com mais de 20 anos de experiência em Direito Empresarial e Imobiliário, atua com excelência em consultoria de negócios, gestão condominial e processos cíveis e societários. Sua atuação é marcada pela visão estratégica e sólida vivência prática. <br/><br/><span class=\"font-bold\"> Nosso Compromisso:</span> <br/>  Na Martins & Silva, cada cliente é único. <br/> Oferecemos uma advocacia preventiva, resolutiva e estratégica, que garante:  <br/><br/> - Segurança jurídica em cada decisão <br/> - Valorização patrimonial e empresarial <br/> - Soluções sob medida para pessoas e negócios ",
+    "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
@@ -147,6 +148,11 @@
     "labelCards": "A_Definir",
     "label": "Clique aqui para ver todas as matérias",
     "blogLink": "A_Definir"
+  },
+  "parceria": {
+    "minitag": "CONFIANÇA E PARCERIA",
+    "title": "Nossos Clientes",
+    "subtitle": "Orgulhamo-nos de representar pessoas e empresas que confiam em nosso trabalho para proteger seus direitos e alcançar resultados com segurança jurídica."
   },
   "faq": {
     "miniTag": "TIRE SUAS DÚVIDAS",

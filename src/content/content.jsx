@@ -16,6 +16,7 @@ import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.webp";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
+import imgParceria from "../assets/imgs/trustedBy/parceiros.webp";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
 
@@ -62,19 +63,20 @@ import imgMobile2 from "../assets/imgs/about/imgGaleriaMobile2.webp";
 import imgMobile3 from "../assets/imgs/about/imgGaleriaMobile3.webp";
 import imgMobile4 from "../assets/imgs/about/imgGaleriaMobile4.webp";
 import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
+import imgParceriaMobile from "../assets/imgs/trustedBy/parceirosMobile.webp";
 
 const currentYear = new Date().getFullYear();
 
 export const infos = {
   name: "Martins & Silva Consultoria Jurídica",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "lucieneamm@hotmail.com", // Email desejado pelo cliente
+  emailSecundario: "juridico.martinsesilvarj@gmail.com", // Email desejado pelo cliente
   emailThree: "josesilva_marcia@outlook.com.br", // Email desejado pelo cliente
   domain: "martinsesilvaconsultoria.com.br", // Sem "www"
   phone: {
     ddd: "21",
-    firstPart: "99216", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0225", // Apenas os 4 últimos números
+    firstPart: "97598", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9872", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "21",
@@ -117,7 +119,7 @@ export const infos = {
   tiktokProfile: "",
 
   whatsappDefaultMessage:
-    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+    "Olá! Tenho interesse em agendar uma consulta e gostaria de mais informações sobre o atendimento.",
   whatsChatDefaultMessage:
     "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
   slogan: "",
@@ -138,11 +140,12 @@ const content = {
         "Início",
         "Serviços",
         "Sobre Nós",
+        "Parceiros",
         "Blog",
         "Perguntas Frequentes",
         "Mapa",
       ],
-      menuId: ["home", "service", "about", "blog", "faq", "maps"],
+      menuId: ["home", "service", "about", "parceria", "blog", "faq", "maps"],
 
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
@@ -595,6 +598,14 @@ const content = {
             "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
         },
       },
+    },
+    parceria: {
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "",
+      img: imgParceria,
+      imgMobile: imgParceriaMobile,
+      alt: "Imagem ilustrativa da Seção de Parceria",
     },
     blog: {
       miniTag: "BLOG",

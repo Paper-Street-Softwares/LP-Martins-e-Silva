@@ -6,7 +6,7 @@ export default function ParagraphSemFading() {
 
   return (
     <Paragraphs className="text-black text-opacity-80">
-      <Trans i18nKey="about.paragraph" components={{ br: <br /> }} />
+      <p dangerouslySetInnerHTML={{ __html: t("about.paragraph") }}></p>
     </Paragraphs>
   );
 }

@@ -17,6 +17,7 @@ import Button from "../components/interactives/Button";
 import UnderConstruction from "../components/interactives/UnderConstruction";
 import { useColorMode } from "../assets/context/ColorModeContext";
 import News from "../components/sections/News";
+import Parceria from "../components/sections/Parceria";
 
 export default function Index() {
   const showUnderConstruction = false;
@@ -75,15 +76,16 @@ export default function Index() {
         iconsWithModal={false}
       />
 
-      <About modal={true} showGallery={false} colorMode={colorMode} />
+      <About modal={false} showGallery={false} colorMode={colorMode} />
       {/* <AboutInstagram colorMode={colorMode} socialPrint={true} /> */}
 
       {/* <News /> */}
-      <CtaSecondary />
+      {/* <CtaSecondary />
       <Steps colorMode={colorMode} />
-      {/* <BlogPosts /> */}
-      <Faq colorMode={colorMode} />
+      <BlogPosts />
+      <Faq colorMode={colorMode} /> */}
       {/* <Maps colorMode={colorMode} /> */}
+      <Parceria />
       <FooterSocial colorMode={colorMode} addres={true} obs={false} />
       <FloatingWhatsappButton />
       <BackToTopButton />

@@ -77,14 +77,14 @@ export default function NavbarSocial({ colorMode, mode }) {
       window.removeEventListener("resize", handleResize);
       document.removeEventListener("mousedown", handleClickOutside);
     };
-    }, []);
+  }, []);
 
   const getNavbarClasses = () => {
     if (colorMode === "light") {
       return scrolling
         ? "bg-bgSectionLight bg-opacity-100 shadow-lg transition-all duration-1000"
         : "bg-gradient-to-b from-bgSectionLight to-transparent border-none transition-colors duration-1000";
-      }
+    }
     if (colorMode === "dark") {
       return scrolling
         ? "bg-gradient-to-b from-black to-bgFixedDark shadow-lg border-b-[1px] border-primary transition-all duration-1000"
@@ -92,8 +92,8 @@ export default function NavbarSocial({ colorMode, mode }) {
     }
     // default
     return scrolling
-      ? "bg-opacity-100 shadow-lg transition-all duration-1000 bg-bgSectionDark"
-      : "transition-colors duration-1000";
+      ? "bg-opacity-100 shadow-lg transition-all duration-1000 bg-white"
+      : "transition-colors duration-1000 bg-white";
   };
 
   return (
@@ -117,7 +117,7 @@ export default function NavbarSocial({ colorMode, mode }) {
               className={`${
                 scrolling
                   ? "w-[40%] mw-[50%] tablet1:w-[30%] tablet2:w-[25%] desktop1:w-[20%] desktop2:w-[20%] transition-all duration-1000"
-                  : "my-[20px] w-[50%] tablet1:w-[40%] tablet2:w-[35%] desktop1:w-[40%] desktop2:w-[30%] transition-all duration-1000"
+                  : "my-[20px] w-[50%] tablet1:w-[40%] tablet2:w-[35%] desktop1:w-[40%] desktop2:w-[40%] transition-all duration-1000"
               } tablet3:mb-0`}
             />
           </ScrollLink>
