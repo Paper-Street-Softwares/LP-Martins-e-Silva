@@ -12,12 +12,12 @@ export default function Features6cards({ colorMode }) {
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
     light: "bg-bgSectionOpacityLight",
-    default: "squares",
+    default: "bg-bgSectionDark",
   };
   const textClasses = {
     dark: "text-white",
     light: "text-secondary",
-    default: "text-black",
+    default: "text-white",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;

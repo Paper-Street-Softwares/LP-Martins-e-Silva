@@ -79,9 +79,13 @@ export default function Hero({
             </div>
 
             <div className="flex justify-center desktop1:justify-start">
-              <div className="flex flex-col items-center desktop1:flex-row text-secondary">
+              <div
+                className={`flex flex-col items-center desktop1:flex-row ${obsTextColorOverride}`}
+              >
                 {content.texts.hero.obsHero.icon}
-                <p className="text-secondary  ml-[10px] text-center desktop1:text-start mt-[12px] font-secondFont desktop1:mt-0">
+                <p
+                  className={`${obsTextColorOverride} ml-[10px] text-center desktop1:text-start mt-[12px] font-secondFont desktop1:mt-0`}
+                >
                   {t("hero.obsHero.text")}{" "}
                 </p>
               </div>
@@ -130,9 +134,9 @@ export default function Hero({
       minititleColor: isMobile
         ? "bg-minititle text-black"
         : "bg-minititle text-minititleDarkLabel",
-      titleTextColor: "text-secondary",
-      subtitleTextColor: "text-secondary",
-      obsTextColorOverride: "text-secondary",
+      titleTextColor: "text-white",
+      subtitleTextColor: "text-white",
+      obsTextColorOverride: "text-white",
     });
   }
 
@@ -144,7 +148,7 @@ export default function Hero({
           id="home"
         >
           <div className="relative z-10 flex w-full items-left">
-            <div className="w-full text-secondary justify-evenly">
+            <div className="w-full text-white justify-evenly">
               <div className="h-[110px] phone2:h-[120px] phone3:h-[130px] tablet1:h-[150px] desktop3:h-[120px]" />
               <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] desktop1:pt-[68px] desktop1:pb-[96px]">
                 {HeroContent}

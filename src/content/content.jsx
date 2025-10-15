@@ -16,6 +16,7 @@ import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.webp";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
+import imgParceria from "../assets/imgs/trustedBy/parceiros.webp";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
 
@@ -62,6 +63,7 @@ import imgMobile2 from "../assets/imgs/about/imgGaleriaMobile2.webp";
 import imgMobile3 from "../assets/imgs/about/imgGaleriaMobile3.webp";
 import imgMobile4 from "../assets/imgs/about/imgGaleriaMobile4.webp";
 import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
+import imgParceriaMobile from "../assets/imgs/trustedBy/parceirosMobile.webp";
 
 const currentYear = new Date().getFullYear();
 
@@ -138,11 +140,12 @@ const content = {
         "Início",
         "Serviços",
         "Sobre Nós",
+        "Parceiros",
         "Blog",
         "Perguntas Frequentes",
         "Mapa",
       ],
-      menuId: ["home", "service", "about", "blog", "faq", "maps"],
+      menuId: ["home", "service", "about", "parceria", "blog", "faq", "maps"],
 
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
@@ -595,6 +598,14 @@ const content = {
             "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
         },
       },
+    },
+    parceria: {
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "",
+      img: imgParceria,
+      imgMobile: imgParceriaMobile,
+      alt: "Imagem ilustrativa da Seção de Parceria",
     },
     blog: {
       miniTag: "BLOG",
