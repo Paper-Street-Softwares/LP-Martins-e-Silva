@@ -73,8 +73,8 @@ export const infos = {
   domain: "martinsesilvaconsultoria.com.br", // Sem "www"
   phone: {
     ddd: "21",
-    firstPart: "99216", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0225", // Apenas os 4 últimos números
+    firstPart: "97598", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9872", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "21",
