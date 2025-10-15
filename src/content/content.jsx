@@ -117,7 +117,7 @@ export const infos = {
   tiktokProfile: "",
 
   whatsappDefaultMessage:
-    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+    "Olá! Tenho interesse em agendar uma consulta e gostaria de mais informações sobre o atendimento.",
   whatsChatDefaultMessage:
     "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
   slogan: "",
