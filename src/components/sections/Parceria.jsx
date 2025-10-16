@@ -14,7 +14,7 @@ export default function Parceria({ colorMode }) {
   const bgClasses = {
     dark: "bg-bgFixedDark",
     light: "bg-bgFixedLight",
-    default: "bg-bgSectionDark",
+    default: "bg-bgSectionOpacityDark",
   };
   const textClasses = {
     dark: "text-white",
@@ -27,7 +27,7 @@ export default function Parceria({ colorMode }) {
   return (
     <SectionArea className={`${bgClass}`} paddingbot={true} id="parceria">
       <SectionWrapper className="flex flex-col-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className="relative flex justify-center rounded-xl shadow-custom-opacity shadow-shadowHero/5">
+        <MotionDivDownToUp className="relative flex justify-center rounded-xl shadow-custom-opacity shadow-shadowHero/20">
           <picture>
             <source
               srcSet={content.texts.parceria.imgMobile}
