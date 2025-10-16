@@ -18,8 +18,9 @@ export const theme = {
       bgSectionDark: "#172B3E",
       bgSectionOpacityLight: "#F7F7F7",
       bgFixedLight: "#E8E8E8",
-      bgSectionOpacityDark: "#111111",
-      bgFixedDark: "#181818",
+      bgSectionOpacityDark: "#030337",
+      bgFixedDark: "#00001D",
+      quinary: "#F6F6F6 ",
 
       // Degradê da Lpv
 
@@ -36,12 +37,12 @@ export const theme = {
 
       // Sombras
 
-      shadowHero: "#000000",
-      shadowFeatures: "#000000",
-      shadowAbouts: "#000000",
-      shadowSteps: "#000000",
-      shadowMaps: "#000000",
-      shadowBlogs: "#000000",
+      shadowHero: "#D0B37F",
+      shadowFeatures: "#D0B37F",
+      shadowAbouts: "#D0B37F",
+      shadowSteps: "#D0B37F",
+      shadowMaps: "#D0B37F",
+      shadowBlogs: "#D0B37F",
 
       // Outros
 

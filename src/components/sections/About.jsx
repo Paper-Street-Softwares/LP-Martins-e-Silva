@@ -27,7 +27,7 @@ export default function About({ modal = true, showGallery, colorMode }) {
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const titleColor = textClasses[colorMode] || textClasses.default;
-  const subtitleColor = colorMode === "light" ? "text-white/80" : "text-black";
+  const subtitleColor = colorMode === "light" ? "text-white/80" : "text-white";
 
   // Puxando apenas textos via i18n
   const aboutText = t("about", { returnObjects: true });
@@ -50,7 +50,7 @@ export default function About({ modal = true, showGallery, colorMode }) {
               <img
                 src={content.texts.about.imagem.img}
                 alt={content.texts.about.imagem.alt}
-                className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl shadow-custom-opacity shadow-shadowAbouts/5"
+                className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl shadow-custom-opacity shadow-shadowAbouts/10"
               />
             </picture>
           )}
